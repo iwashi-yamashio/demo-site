@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="ようこそ、Lee YunGyeongファンミーティングサイトへ。こちらでは、イベントのお知らせを提供しています。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lee YunGyeong FANMEETING</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <a class="header-title">
+      Lee YunGyeong <br>
+      FANMEETING
+    </a>
+    <nav>
+      <ul class="nav">
+        <li class="nav-item"><a href="#about">about</a></li>
+        <li class="nav-item"><a href="#news">news</a></li>
+        <li class="nav-item"><a href="#schedule">schedule</a></li>
+        <li class="nav-item"><a href="#ticket">ticket</a></li>
+        <li class="nav-item"><a href="#information">information</a></li>
+      </ul>
+    </nav>
+
+    <!-- スマホ用メニューボタン -->
+    <img id="menu-sp" src="assets/images/menu.png" alt="ナビゲーションを開く"
+      onclick="document.getElementById('nav-sp').style.display = 'block'">
+
+    <!-- スマホ用ナビゲーション -->
+    <nav id="nav-sp">
+      <img id="close" src="assets/images/close.png" alt="ナビゲーションを閉じる"
+        onclick="document.getElementById('nav-sp').style.display = 'none'">
+      <ul class="nav-sp__menu">
+        <li class="menu"><a href="#about" onclick="document.getElementById('nav-sp').style.display = 'none'">about</a>
+        </li>
+        <li class="menu"><a href="#news" onclick="document.getElementById('nav-sp').style.display = 'none'">news</a>
+        </li>
+        <li class="menu"><a href="#schedule"
+            onclick="document.getElementById('nav-sp').style.display = 'none'">schedule</a></li>
+        <li class="menu"><a href="#ticket" onclick="document.getElementById('nav-sp').style.display = 'none'">ticket</a>
+        </li>
+        <li class="menu"><a href="#information"
+            onclick="document.getElementById('nav-sp').style.display = 'none'">information</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <article>
+      <!-- メインビジュアル -->
+      <!-- Swiper START -->
+      <section class="main">
+        <div class="main-visual">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="main-visual__item" src="assets/images/main_01.jpg" alt="メイン画像１">
+              </div>
+              <div class="swiper-slide"><img class="main-visual__item" src="assets/images/main_02.jpg" alt="メイン画像2">
+              </div>
+              <div class="swiper-slide"><img class="main-visual__item" src="assets/images/main_03.jpg" alt="メイン画像3">
+              </div>
+            </div>
+            <h1 class="main-visual__subtitle">deep blue</h1>
+          </div>
+          <!-- ページネーション -->
+          <div class="swiper-pagination"></div>
+      </section>
+
+      <!--アバウト-->
+      <section class="about">
+        <hgroup class="common-title">
+          <h1 id="about" class="common-title__txt"><span>about</span></h1>
+        </hgroup>
+        <div>
+          <h2 class="about__item-lead">「また会いましょう」</h2>
+          <hr>
+          <p class="about__item-text">ファンの皆様との約束から４年<br>
+            日本でのファンミーティングを<br>
+            ようやく開催できることになりました<br>
+            ライブステージとは違った<br>
+            アットホームな雰囲気の中で<br>
+            YunGyeongの魅力をより近くで感じてください<br>
+            皆様とお会いできることを楽しみにしています<br>
+          </p>
+          <hr>
+        </div>
+        <div class="about__img">
+          <figure class="about__img-thumb"><img src="assets/images/about_left.jpg" alt=""></figure>
+          <figure class="about__img-thumb"><img src="assets/images/about_center.jpg" alt=""></figure>
+          <figure class="about__img-thumb"><img src="assets/images/about_right.jpg" alt=""></figure>
+        </div>
+      </section>
+
+      <!--ニュース-->
+      <section class="news">
+        <hgroup class="common-title">
+          <h1 id="news" class="common-title__txt"><span>news</span></h1>
+        </hgroup>
+
+        <div class="news__item">
+          <ul class="news__item-txt">
+            <li class="news__head">チケット情報</li>
+            <li><a href="#"><time>2023/10/11</time></a></li>
+            <li class="news__contents">チケット情報を更新しました。詳細は「Ticket」をご覧ください</li>
+          </ul>
+          <ul class="news__item-txt">
+            <li class="news__head">ファンクラブ限定イベント案内</li>
+            <li><a href=" #"><time>2023/10/18</time></a></li>
+            <li class="news__contents">ファンクラブ会員様限定 公演当日の握手会についての詳細を更新しました。詳しくはファンクラブサイトをご確認ください</li>
+          </ul>
+          <ul class="news__item-txt">
+            <li class="news__head">当日のグッズ販売に関して</li>
+            <li><a href=" #"><time>2023/10/25</time></a></li>
+            <li class="news__contents">当日のグッズ販売は、入場ゲート内ロビーを予定しております。チケットをお持ちのお客様に限らせていただきます</li>
+          </ul>
+        </div>
+
+
+      </section>
+
+      <!--スペシャルムービーメッセージ-->
+      <section class="movie">
+        <div class="movie__container">
+          <div class="movie__title">
+            <h1 class="movie__title-txt">special message</h1>
+          </div>
+          <div class="movie__contents">
+            <iframe class="movie__contents-item" width="470" height="312"
+              src="https://www.youtube.com/embed/SkuzhKnjD0E?si=IQzx-SbEeJ79q4qB" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!--スケジュール-->
+      <section class="schedule">
+        <hgroup class="common-title">
+          <h1 id="schedule" class="common-title__txt"><span>schedule</span></h1>
+        </hgroup>
+
+        <div>
+          <div class="schedule__item">
+            <div class="schedule__item-box">
+              <h2 class="schedule__item-title">東京ステージ</h2>
+              <div>
+                <dl>
+                  <dt>開催日時</dt>
+                  <dd>
+                    <time>2023年11月11日(土)</time>
+                    <ul>
+                      <li><span class="schedule__item-mark">1回目</span>13時開場/14時開演(予定)</li>
+                      <li><span class="schedule__item-mark">2回目</span>17時開場/18時開演(予定)</li>
+                    </ul>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>アクセス</dt>
+                  <dd>
+                    <ul>
+                      <li><span class="schedule__item-mark">会場</span>ホテルメトロポリタンエドモント</li>
+                      <li>千代田区飯田橋三丁目10番8号</li>
+                    </ul>
+                  </dd>
+                </dl>
+                <iframe class="map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0329861565647!2d139.74647677531203!3d35.700805872581014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c4117abb015%3A0x1a77921c20f596fd!2z44Ob44OG44Or44Oh44OI44Ot44Od44Oq44K_44Oz44Ko44OJ44Oi44Oz44OI!5e0!3m2!1sja!2sjp!4v1700059127476!5m2!1sja!2sjp"
+                  width="400" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="schedule__item-box">
+              <h2 class="schedule__item-title">大阪ステージ</h2>
+              <div>
+                <dl>
+                  <dt>開催日時</dt>
+                  <dd>
+                    <time>2023年12⽉25日(月)</time>
+                    <ul>
+                      <li><span class="schedule__item-mark">1回目</span>13時開場/14時開演(予定)</li>
+                      <li><span class="schedule__item-mark">2回目</span>17時開場/18時開演(予定)</li>
+                    </ul>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>アクセス</dt>
+                  <dd>
+                    <ul>
+                      <li><span class="schedule__item-mark">会場</span>ホテルグランヴィア大阪</li>
+                      <li>大阪市北区梅田3丁目1番1号</li>
+                    </ul>
+                  </dd>
+                </dl>
+                <iframe class="map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.148122833572!2d135.49501283782055!3d34.70144374465018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e68d76465acb%3A0x5e6e773bc220b48d!2z44Ob44OG44Or44Kw44Op44Oz44O044Kj44Ki5aSn6Ziq!5e0!3m2!1sja!2sjp!4v1701091073558!5m2!1sja!2sjp"
+                  width="400" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <!--チケット-->
+      <section class="ticket">
+        <hgroup class="common-title">
+          <h1 id="ticket" class="common-title__txt"><span>ticket</span></h1>
+        </hgroup>
+
+        <div class="ticket-area">
+          <div class="ticket-area__top">
+            <div>
+              11,800円（税込）<br>
+              当⽇チケット 12,800円（税込）<br>
+              <span class="ticket-area__mark">予定枚数に達した場合、当日券の販売は行いません</span>
+            </div>
+          </div>
+
+          <div class="ticket-area__item">
+            <div>
+              <h2 class="ticket-area__item-ttl">FC先行</h2>
+              <dl class="ticket-area__item-txt">
+                <dd class="ticket-area__item-parts">
+                  <p class="ticket-area__item-mark"><time>2023年9月29日（金）15時</time>より販売開始</p>
+                  <ul>
+                    <li>申し込み多数の場合は抽選となります</li>
+                    <li>FC先行受付期間</li>
+                    <li><time>2023年9月29日(金)15:00～10月5日(木)23:59まで</time></li>
+                  </ul>
+                </dd>
+                <dt>JAPAN OFFICIAL FANCLUB先行受付</dt>
+                <dd>
+                  <ul>
+                    <li>FC先行チケット販売対象者/FANCLUB正会員様</li>
+                    <li>詳細は下記ファンクラブサイトよりご確認ください。</li>
+                    <li>ファンクラブサイト<span>https://myungsoo.jp/</span></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+
+
+              </dl>
+            </div>
+            <div>
+              <dt class="ticket-area__item-ttl">一般発売</dt>
+              <dl class="ticket-area__item-txt">
+                <dd class="ticket-area__item-parts">
+                  <p class="ticket-area__item-mark"><time>2023年10⽉10⽇（⽕）15時</time>より販売開始</p>
+                  <ul>
+                    <li>申し込み多数の場合は抽選となります</li>
+                    <li>詳細は下記プレイガイドよりご確認ください。</li>
+                  </ul>
+                </dd>
+                <dl>
+                  <dt>チケットぴあ</dt>
+                  <dd>
+                    https://t.pia.jp/
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>ローソンチケット</dt>
+                  <dd>
+                    https://l-tike.com/
+                  </dd>
+                </dl>
+              </dl>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+
+      <!--インフォメーション-->
+      <section class="information">
+        <hgroup class="common-title">
+          <h1 id="information" class="common-title__txt"><span>information</span></h1>
+        </hgroup>
+
+        <div class="information-area">
+          <div>
+            <p class="information-area__txt">
+              チケットに関してのお問合せは各プレイガイドまでご連絡ください。<br>
+              お問合せの内容により、ご回答しかねる場合がございます。ご了承ください。
+            </p>
+          </div>
+
+          <div class="information-area-wrap">
+            <form action=" /form.php" method="post">
+              <div class="information-area__item">
+                <div class="information-area__label"><label for="name">お名前</label><br></div>
+                <div class="information-area__input"><input type="text" id="name" name="name"></div>
+              </div>
+              <div class="information-area__item">
+                <div class="information-area__label"><label for="email">メールアドレス</label><br></div>
+                <div class="information-area__input"><input type="mail" id="email" name="email"></div>
+              </div>
+              <div class="information-area__item">
+                <div class="information-area__label"><label for="category">お問合せの種類</label><br></div>
+                <select name="category">
+                  <option value="select">選択してください</option>
+                  <option value="ticket">チケットについて</option>
+                  <option value="team">ファンクラブに関して</option>
+                  <option value="letter">ファンレターやプレゼントについて</option>
+                </select>
+
+              </div>
+              <div class="information-area__item">
+                <div class="information-area__label"><label for="message">お問合せ詳細</label><br></div>
+                <textarea id="message" name="message"></textarea>
+              </div>
+              <div class="information-area__item-button">
+                <input type="submit" value="送信する">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <!--フッター-->
+    <footer>
+      <p>&copy; team YunGyeong inc. 2023.</p>
+    </footer>
+
+    <!--ページトップへ戻るボタンー-->
+    <div class="to-pagetop">
+      <a href="#" class="btn">TOP</a>
+    </div>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
