@@ -569,8 +569,7 @@ hr {
   width: 45rem;
   height: 30rem;
   margin: 1rem 3rem 0rem 3rem;
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
+  padding: 3%;
   text-align: left;
   line-height: 2;
 }
@@ -624,6 +623,7 @@ hr {
   }
 }
 
+
 /* インフォメーション*/
 .information-area {
   display: block;
@@ -638,7 +638,7 @@ hr {
 }
 
 .information-area__wrap {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 
 }
@@ -646,14 +646,12 @@ hr {
 .information-area__item {
   width: 80%;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 3rem
+  align-items: center;
+  margin: 0 auto 3rem;
 }
 
 .information-area__label {
-  width: 30%;
-  text-align: start;
-  padding-left: 15rem;
+  width: 20%;
 }
 
 .information-area__input {
@@ -661,6 +659,7 @@ hr {
   background-color: #FFF;
   border: solid .1rem #C0C0C0;
   margin: 0 auto;
+  padding: 1%;
 }
 
 .information-area__item select {
@@ -670,6 +669,7 @@ hr {
   text-align: start;
   margin: 0 auto;
   color: #808080;
+  padding: 1%;
 }
 
 textarea {
@@ -700,15 +700,15 @@ textarea {
 /*スマホ用表示*/
 @media screen and (max-width: 960px) {
   .information-area__wrap {
-    width: 80%;
+    width: 100%;
   }
 
   .information-area__item {
-    width: 35rem;
-    height: 4rem;
+    width: 70%;
     display: block;
-    justify-content: center;
-    margin: 3rem auto;
+    align-items: center;
+    margin: 0 auto;
+
   }
 
   .information-area__txt {
@@ -720,17 +720,28 @@ textarea {
   }
 
   .information-area__label {
-    width: 80%;
-    transform: translate(-35%);
-    margin-bottom: .5rem;
+    width: 40%;
+    font-size: 1.4rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  .information-area__input {
+    margin: 0 auto;
   }
 
   .information-area__item select {
-    margin-left: 5rem;
+    width: 70%;
+    display: block;
+    text-align: center;
+
   }
 
   textarea {
-    margin-left: 5rem;
+    width: 70%;
+    display: block;
+
+
   }
 
   .information-area__item-button {

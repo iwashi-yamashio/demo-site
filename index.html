@@ -276,55 +276,51 @@
           </div>
 
 
-        </div>
-      </section>
+          <!--インフォメーション-->
+          <section class="information">
+            <hgroup class="common-title">
+              <h1 id="information" class="common-title__txt"><span>information</span></h1>
+            </hgroup>
 
+            <div class="information-area">
+              <div>
+                <p class="information-area__txt">
+                  チケットに関してのお問合せは各プレイガイドまでご連絡ください。<br>
+                  お問合せの内容により、ご回答しかねる場合がございます。ご了承ください。
+                </p>
+              </div>
 
-      <!--インフォメーション-->
-      <section class="information">
-        <hgroup class="common-title">
-          <h1 id="information" class="common-title__txt"><span>information</span></h1>
-        </hgroup>
+              <div class="information-area-wrap">
+                <form action=" /form.php" method="post">
+                  <div class="information-area__item">
+                    <div class="information-area__label"><label for="name">お名前</label><br></div>
+                    <div class="information-area__input"><input type="text" id="name" name="name"></div>
+                  </div>
+                  <div class="information-area__item">
+                    <div class="information-area__label"><label for="email">メールアドレス</label><br></div>
+                    <div class="information-area__input"><input type="mail" id="email" name="email"></div>
+                  </div>
+                  <div class="information-area__item">
+                    <div class="information-area__label"><label for="category">お問合せの種類</label><br></div>
+                    <select name="category">
+                      <option value="select">選択してください</option>
+                      <option value="ticket">チケットについて</option>
+                      <option value="team">ファンクラブに関して</option>
+                      <option value="letter">ファンレターやプレゼントについて</option>
+                    </select>
 
-        <div class="information-area">
-          <div>
-            <p class="information-area__txt">
-              チケットに関してのお問合せは各プレイガイドまでご連絡ください。<br>
-              お問合せの内容により、ご回答しかねる場合がございます。ご了承ください。
-            </p>
-          </div>
-
-          <div class="information-area-wrap">
-            <form action=" /form.php" method="post">
-              <div class="information-area__item">
-                <div class="information-area__label"><label for="name">お名前</label><br></div>
-                <div class="information-area__input"><input type="text" id="name" name="name"></div>
+                  </div>
+                  <div class="information-area__item">
+                    <div class="information-area__label"><label for="message">お問合せ詳細</label><br></div>
+                    <textarea id="message" name="message"></textarea>
+                  </div>
+                  <div class="information-area__item-button">
+                    <input type="submit" value="送信する">
+                  </div>
+                </form>
               </div>
-              <div class="information-area__item">
-                <div class="information-area__label"><label for="email">メールアドレス</label><br></div>
-                <div class="information-area__input"><input type="mail" id="email" name="email"></div>
-              </div>
-              <div class="information-area__item">
-                <div class="information-area__label"><label for="category">お問合せの種類</label><br></div>
-                <select name="category">
-                  <option value="select">選択してください</option>
-                  <option value="ticket">チケットについて</option>
-                  <option value="team">ファンクラブに関して</option>
-                  <option value="letter">ファンレターやプレゼントについて</option>
-                </select>
-
-              </div>
-              <div class="information-area__item">
-                <div class="information-area__label"><label for="message">お問合せ詳細</label><br></div>
-                <textarea id="message" name="message"></textarea>
-              </div>
-              <div class="information-area__item-button">
-                <input type="submit" value="送信する">
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
+            </div>
+          </section>
     </article>
 
     <!--フッター-->
